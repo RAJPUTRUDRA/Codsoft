@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c8c3c3;
+}
+header {
+    background-color: #333;
+    background-image: url('https://th.bing.com/th/id/OIP.LSgCeHrpDFL7kTUICBgUtgHaE7?w=1200&h=798&rs=1&pid=ImgDetMain');
+    background-position: 20%;
+    background-size: 750px;
+    background-blend-mode: overlay;
+    color: #fff;
+    padding: 1.5em;
+
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+.car {
+    width: 20%;
+    margin: .5em;
+    padding: .5em;
+    background-color: #725b5b;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.car img {
+    width: 100%;
+    border-radius: 4px;
+}
+footer {
+    background-color: #333;
+    background-image: url('https://th.bing.com/th/id/OIP.vGccGokwgtytzeA7YAAXFgHaE7?rs=1&pid=ImgDetMain');
+    background-blend-mode: overlay;
+    background-position: 20%;
+    background-size: 480px;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
